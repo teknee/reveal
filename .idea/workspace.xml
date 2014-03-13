@@ -23,22 +23,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="59" selection-start="5207" selection-end="5207" vertical-scroll-proportion="-13.458333" vertical-offset="1057" max-vertical-offset="1755">
+            <state line="115" column="35" selection-start="6298" selection-end="6298" vertical-scroll-proportion="1.8810889" vertical-offset="322" max-vertical-offset="1785">
               <folding>
-                <element signature="tag#ul#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#ul#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reveal.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="3" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reveal.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/reveal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.020408163" vertical-offset="0" max-vertical-offset="735">
+            <state line="13" column="18" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1005">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collapse.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/collapse.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="0" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="708" max-vertical-offset="2235">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#2759#3614#0" expanded="false" />
+                <element signature="e#3658#3722#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,9 +84,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/button.js" />
         <option value="$PROJECT_DIR$/app/scripts/reveal.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
       </list>
     </option>
   </component>
@@ -247,7 +270,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-410" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22773279" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -308,37 +331,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/button.js">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/alert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="3" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.67346936" vertical-offset="285" max-vertical-offset="1725">
+        <state line="60" column="32" selection-start="1894" selection-end="1894" vertical-scroll-proportion="1.1224489" vertical-offset="75" max-vertical-offset="1560">
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/alert.js">
+    <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/button.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="21" selection-start="1077" selection-end="1077" vertical-scroll-proportion="-0.5510204" vertical-offset="810" max-vertical-offset="1560">
+        <state line="52" column="3" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.26530612" vertical-offset="330" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/reveal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="18" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="3" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/collapse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1493" selection-end="1493" vertical-scroll-proportion="0.0" vertical-offset="708" max-vertical-offset="2235">
           <folding>
-            <element signature="n#!!doc" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2759#3614#0" expanded="false" />
+            <element signature="e#3658#3722#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="59" selection-start="5207" selection-end="5207" vertical-scroll-proportion="-13.458333" vertical-offset="1057" max-vertical-offset="1755">
+        <state line="115" column="35" selection-start="6298" selection-end="6298" vertical-scroll-proportion="1.8810889" vertical-offset="322" max-vertical-offset="1785">
           <folding>
-            <element signature="tag#ul#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#ul#0;tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/reveal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.020408163" vertical-offset="0" max-vertical-offset="735">
-          <folding />
         </state>
       </provider>
     </entry>
