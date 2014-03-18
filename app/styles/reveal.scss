@@ -1,0 +1,15 @@
+.reveal {
+  .reveal-container {
+    position: relative;
+  }
+  .reveal-cover {
+    position: absolute;
+  }
+  .reveal-content {
+    overflow-y: scroll;
+    padding: 0 2%
+  }
+  .out {
+    display: none;
+  }
+}
