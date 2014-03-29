@@ -6,8 +6,8 @@
     position: absolute;
   }
   .reveal-content {
-    overflow-y: scroll;
-    padding: 0 2%
+    padding: 0 2%;
+    overflow-y: auto;
   }
   .out {
     display: none;

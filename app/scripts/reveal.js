@@ -10,13 +10,16 @@
         this.$element = $(element);
         this.$cover = this.$element.find('.reveal-cover');
         this.$content = this.$element.find('.reveal-content');
-        this.height = 0;
-        this.$element.on('mouseenter', $.proxy(this.show, this));
-        this.$element.on('mouseleave', $.proxy(this.hide, this));
     }
 
     Reveal.prototype.init = function () {
-        this.$cover.fadeIn();
+        this.resize();
+        this.$element.on('mouseenter', $.proxy(this.show, this));
+        this.$element.on('mouseleave', $.proxy(this.hide, this));
+        $(window).resize($.proxy(this.resize, this));
+    };
+
+    Reveal.prototype.resize = function () {
         this.$content.height(this.$cover.height());
     };
 
