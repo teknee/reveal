@@ -26,20 +26,19 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="120" selection-start="2550" selection-end="2550" vertical-scroll-proportion="-17.291666" vertical-offset="485" max-vertical-offset="2340">
+            <state line="60" column="120" selection-start="2550" selection-end="2550" vertical-scroll-proportion="-0.0" vertical-offset="900" max-vertical-offset="3075">
               <folding>
-                <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-                <marker date="1395204255000" expanded="true" signature="917:1070" placeholder="..." />
-                <marker date="1395204255000" expanded="true" signature="1010:1038" placeholder="..." />
+                <marker date="1396068511000" expanded="true" signature="917:1070" placeholder="..." />
+                <marker date="1396068511000" expanded="true" signature="1010:1038" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reveal.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="reveal.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/styles/reveal.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="125" selection-end="125" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="300">
+            <state line="12" column="19" selection-start="199" selection-end="199" vertical-scroll-proportion="0.26239067" vertical-offset="0" max-vertical-offset="686">
               <folding />
             </state>
           </provider>
@@ -48,16 +47,25 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+            <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reveal.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="reveal.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/reveal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.36734694" vertical-offset="0" max-vertical-offset="795">
+            <state line="18" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="795">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="7" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -74,11 +82,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/button.js" />
-        <option value="$PROJECT_DIR$/app/scripts/main.js" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/styles/reveal.scss" />
         <option value="$PROJECT_DIR$/app/scripts/reveal.js" />
+        <option value="$PROJECT_DIR$/app/scripts/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/styles/reveal.scss" />
       </list>
     </option>
   </component>
@@ -130,7 +139,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,6 +227,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,14 +240,6 @@
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -249,15 +250,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -297,25 +306,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-410" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22773279" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22773279" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16535018" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -335,11 +344,40 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/404.html">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445">
+        <state line="60" column="120" selection-start="2550" selection-end="2550" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3075">
+          <folding>
+            <marker date="1396068511000" expanded="true" signature="917:1070" placeholder="..." />
+            <marker date="1396068511000" expanded="true" signature="1010:1038" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/reveal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/reveal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2445" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/test.js">
@@ -362,9 +400,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/button.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="3" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.26530612" vertical-offset="330" max-vertical-offset="1470">
-          <folding />
-        </state>
+        <state line="52" column="3" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.26530612" vertical-offset="330" max-vertical-offset="1470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/js/collapse.js">
@@ -380,60 +416,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/lib/_alerts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="8.346939" vertical-offset="409" max-vertical-offset="1095">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="8.346939" vertical-offset="409" max-vertical-offset="1095" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/bower_components/sass-bootstrap/lib/bootstrap.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2026239" vertical-offset="139" max-vertical-offset="825">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.2026239" vertical-offset="139" max-vertical-offset="825" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="155" selection-end="155" vertical-scroll-proportion="0.12658228" vertical-offset="0" max-vertical-offset="1470">
-          <folding />
-        </state>
+        <state line="6" column="20" selection-start="155" selection-end="155" vertical-scroll-proportion="0.12658228" vertical-offset="0" max-vertical-offset="1470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="532" selection-end="532" vertical-scroll-proportion="0.33755276" vertical-offset="0" max-vertical-offset="711">
-          <folding />
-        </state>
+        <state line="16" column="31" selection-start="532" selection-end="532" vertical-scroll-proportion="0.33755276" vertical-offset="0" max-vertical-offset="711" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="120" selection-start="2550" selection-end="2550" vertical-scroll-proportion="-17.291666" vertical-offset="485" max-vertical-offset="2340">
+        <state line="60" column="120" selection-start="2550" selection-end="2550" vertical-scroll-proportion="-0.0" vertical-offset="900" max-vertical-offset="3075">
           <folding>
-            <element signature="tag#div#1;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-            <marker date="1395204255000" expanded="true" signature="917:1070" placeholder="..." />
-            <marker date="1395204255000" expanded="true" signature="1010:1038" placeholder="..." />
+            <marker date="1396068511000" expanded="true" signature="917:1070" placeholder="..." />
+            <marker date="1396068511000" expanded="true" signature="1010:1038" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/reveal.scss">
+    <entry file="file://$PROJECT_DIR$/app/scripts/reveal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="125" selection-end="125" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="300">
+        <state line="18" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/reveal.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="489" selection-end="489" vertical-scroll-proportion="0.36734694" vertical-offset="0" max-vertical-offset="795">
+        <state line="7" column="7" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/reveal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="19" selection-start="199" selection-end="199" vertical-scroll-proportion="0.26239067" vertical-offset="0" max-vertical-offset="686">
           <folding />
         </state>
       </provider>
